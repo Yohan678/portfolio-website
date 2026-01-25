@@ -1,21 +1,22 @@
 const projects = [
     {
         category: "game",
-        title: "Example 1",
-        date: "Dec 2025",
+        title: "Throught The Night",
+        date: "Dec 2024",
         techStack: ["unity", "csharp"],
-        description: "This is example description.  This is example description. This is example description.",
-        image: "icons/unity_white.png",
-        githubLink: "#"
+        description: "2D Unity game, individually developed. Most of the characters' assets were made by me.",
+        image: "images/sc_unity_1.png",
+        githubLink: "https://yoonyohan6.itch.io/through-the-night"
     },
     {
         category: "game",
-        title: "Example 2",
-        date: "Dec 2026",
+        title: "Wizard's Last Standing",
+        date: "Apr 2025",
         techStack: ["unity", "csharp"],
-        description: "This is example description.  This is example description. This is example description.",
-        image: "icons/unity_white.png",
-        githubLink: "#"
+        description: "3D Topdown Unity game, individually developed.",
+        image: "images/sc_unity_2.png",
+        githubLink: "https://devyohan.itch.io/wizards-last-standing",
+        youtubeId: "LIWnXXp5OBg"
     },
     {
         category: "game",
@@ -36,15 +37,6 @@ const projects = [
         image: "images/sc_pomodoro_1.png", 
         githubLink: "https://github.com/Yohan678/StudyApp.git",
         youtubeId: "iUMBT2s9pY0"
-    },
-    {
-        category: "app",
-        title: "Tarot AI",
-        date: "Aug 2025",
-        techStack: ["flutter", "dart"], 
-        description: "This is example description.This is example description.",
-        image: "images/app_screenshot_2.png", 
-        githubLink: "#"
     }
 ];
 
@@ -64,7 +56,7 @@ function renderProjects() {
         let buttonIcon = "";
 
         if (project.category === 'game') {
-            buttonText = "Play on itch.io";
+            buttonText = "Play this on itch.io";
             buttonIcon = "🎮";
             
         } else {
