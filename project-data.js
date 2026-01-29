@@ -37,6 +37,15 @@ const projects = [
         image: "images/sc_pomodoro_1.png", 
         githubLink: "https://github.com/Yohan678/StudyApp.git",
         youtubeId: "iUMBT2s9pY0"
+    },
+    {
+        category: "app",
+        title: "LOL Profile Finder",
+        date: "current",
+        techStack: ["flutter", "dart"],
+        description: "A simple mobile app to find League of Legends player profiles and states from the Riot Games API.",
+        image: "images/construction_sign.jpg",
+        githubLink: "https://github.com/Yohan678/LOLFinder.git"
     }
 ];
 
