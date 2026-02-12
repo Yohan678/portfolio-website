@@ -41,10 +41,10 @@ const projects = [
     {
         category: "app",
         title: "LOL Profile Finder",
-        date: "current",
+        date: "current", //1/28/26
         techStack: ["flutter", "dart"],
         description: "A simple mobile app to find League of Legends player profiles and states from the Riot Games API.",
-        image: "images/2_2_26_v2.png",
+        image: "images/2_12_26_v3.png",
         githubLink: "https://github.com/Yohan678/LOLFinder.git"
     }
 ];
