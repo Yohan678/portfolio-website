@@ -52,14 +52,30 @@ const projects = [
         title: "Devlog #1",
         date: "Feb 2026",
         techStack: ["unrealengine"],
-        description: "First Devlog",
-        localVideo: ""
+        description: "First Devlog (click 'View on Github' to see pdf)",
+        image: "images/devlog1_img.png",
+        localVideo: "",
+        githubLink: "https://docs.google.com/document/d/1n3ZW35dBngkAEEnWiixYjQ6kgs8eptuQkhf6g_4qNFk/edit?tab=t.0"
     },
     {
         category: "devlog",
         title: "Devlog #2",
         date: "Mar 2026",
         techStack: ["unrealengine"],
+        description: "2nd Devlog, (click 'View on Github' to see pdf)",
+        image: "images/devlog2_img.png",
+        localVideo: "videos/devlog_2.mp4",
+        githubLink: "https://docs.google.com/document/d/1n3ZW35dBngkAEEnWiixYjQ6kgs8eptuQkhf6g_4qNFk/edit?tab=t.0"
+    },
+    {
+        category: "devlog",
+        title: "Devlog #3",
+        date: "Apr 2026",
+        techStack: ["unrealengine"],
+        description: "3rd Devlog, (click 'View on Github' to see pdf)",
+        image: "",
+        localVideo: "",
+        githubLink: "https://docs.google.com/document/d/1n3ZW35dBngkAEEnWiixYjQ6kgs8eptuQkhf6g_4qNFk/edit?tab=t.0"
     }
 ];
 
