@@ -52,17 +52,17 @@ const projects = [
         title: "Devlog #1",
         date: "Feb 2026",
         techStack: ["unrealengine"],
-        description: "First Devlog (click 'View on Github' to see pdf)",
+        description: "First Devlog",
         image: "images/devlog1_img.png",
         localVideo: "",
-        githubLink: "https://docs.google.com/document/d/1n3ZW35dBngkAEEnWiixYjQ6kgs8eptuQkhf6g_4qNFk/edit?tab=t.0"
+        githubLink: "pdfs/GEP_DevLog1.pdf"
     },
     {
         category: "devlog",
         title: "Devlog #2",
         date: "Mar 2026",
         techStack: ["unrealengine"],
-        description: "2nd Devlog, (click 'View on Github' to see pdf)",
+        description: "2nd Devlog",
         image: "images/devlog2_img.png",
         localVideo: "videos/devlog_2.mp4",
         githubLink: "https://docs.google.com/document/d/1n3ZW35dBngkAEEnWiixYjQ6kgs8eptuQkhf6g_4qNFk/edit?tab=t.0"
@@ -72,7 +72,7 @@ const projects = [
         title: "Devlog #3",
         date: "Apr 2026",
         techStack: ["unrealengine"],
-        description: "3rd Devlog, (click 'View on Github' to see pdf)",
+        description: "3rd Devlog",
         image: "",
         localVideo: "",
         githubLink: "https://docs.google.com/document/d/1n3ZW35dBngkAEEnWiixYjQ6kgs8eptuQkhf6g_4qNFk/edit?tab=t.0"
@@ -103,6 +103,9 @@ function renderProjects() {
         if (project.category === 'game') {
             buttonText = "Play on itch.io";
             buttonIcon = "🎮";
+        } else if (project.category === 'devlog'){
+            buttonText = "View Document";
+            buttonIcon = "📄"
         }
 
         // ③ 비디오 HTML 생성 (로컬 MP4, 비메오, 유튜브 모두 지원)
