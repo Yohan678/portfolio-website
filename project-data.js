@@ -55,7 +55,7 @@ const projects = [
         description: "First Devlog",
         image: "images/devlog1_img.png",
         localVideo: "",
-        githubLink: "pdfs/GEP_DevLog1.pdf"
+        githubLink: "https://docs.google.com/document/d/1HGPA2qc1BNAHW1oLaJdYvwVo38J1dJxLSy55yIKiC78/edit?tab=t.0"
     },
     {
         category: "devlog",
@@ -65,7 +65,7 @@ const projects = [
         description: "2nd Devlog",
         image: "images/devlog2_img.png",
         localVideo: "videos/devlog_2.mp4",
-        githubLink: "pdfs/GEP_DevLog2.pdf"
+        githubLink: "https://docs.google.com/document/d/1dGeu--h8FyLF7RcZSFJJYzQH3odu6xzy0sM4TQpfq9M/edit?tab=t.0"
     },
     {
         category: "devlog",
@@ -75,7 +75,7 @@ const projects = [
         description: "3rd Devlog",
         image: "images/devlog3_img.png",
         localVideo: "videos/devlog_3.mp4",
-        githubLink: "pdfs/GEP_DevLog3.pdf"
+        githubLink: "https://docs.google.com/document/d/1tB9fv60llXBinNflEPVrs6lQr_6NP_ll07jN34FduvU/edit?tab=t.0"
     }
 ];
 
