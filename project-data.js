@@ -65,7 +65,7 @@ const projects = [
         description: "2nd Devlog",
         image: "images/devlog2_img.png",
         localVideo: "videos/devlog_2.mp4",
-        githubLink: "pdfs/GEP_Devlog2.pdf"
+        githubLink: "pdfs/GEP_DevLog2.pdf"
     },
     {
         category: "devlog",
@@ -75,7 +75,7 @@ const projects = [
         description: "3rd Devlog",
         image: "images/devlog3_img.png",
         localVideo: "videos/devlog_3.mp4",
-        githubLink: "pdfs/GEP_Devlog3.pdf"
+        githubLink: "pdfs/GEP_DevLog3.pdf"
     }
 ];
 
