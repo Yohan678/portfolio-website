@@ -65,7 +65,7 @@ const projects = [
         description: "2nd Devlog",
         image: "images/devlog2_img.png",
         localVideo: "videos/devlog_2.mp4",
-        githubLink: "https://docs.google.com/document/d/1n3ZW35dBngkAEEnWiixYjQ6kgs8eptuQkhf6g_4qNFk/edit?tab=t.0"
+        githubLink: "pdfs/GEP_Devlog2.pdf"
     },
     {
         category: "devlog",
@@ -73,9 +73,9 @@ const projects = [
         date: "Apr 2026",
         techStack: ["unrealengine"],
         description: "3rd Devlog",
-        image: "",
-        localVideo: "",
-        githubLink: "https://docs.google.com/document/d/1n3ZW35dBngkAEEnWiixYjQ6kgs8eptuQkhf6g_4qNFk/edit?tab=t.0"
+        image: "images/devlog3_img.png",
+        localVideo: "videos/devlog_3.mp4",
+        githubLink: "pdfs/GEP_Devlog3.pdf"
     }
 ];
 
