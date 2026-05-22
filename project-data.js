@@ -41,41 +41,20 @@ const projects = [
     {
         category: "app",
         title: "LOL Profile Finder",
-        date: "current", //1/28/26
+        date: "Feb 2026", //1/28/26
         techStack: ["flutter", "dart"],
         description: "A simple mobile app to find League of Legends player profiles and states from the Riot Games API.",
         image: "images/2_12_26_v3.png",
         githubLink: "https://github.com/Yohan678/LOLFinder.git"
     },
     {
-        category: "devlog",
-        title: "Devlog #1",
-        date: "Feb 2026",
-        techStack: ["unrealengine"],
-        description: "First Devlog",
-        image: "images/devlog1_img.png",
-        localVideo: "",
-        githubLink: "https://docs.google.com/document/d/1HGPA2qc1BNAHW1oLaJdYvwVo38J1dJxLSy55yIKiC78/edit?tab=t.0"
-    },
-    {
-        category: "devlog",
-        title: "Devlog #2",
-        date: "Mar 2026",
-        techStack: ["unrealengine"],
-        description: "2nd Devlog",
-        image: "images/devlog2_img.png",
-        localVideo: "videos/devlog_2.mp4",
-        githubLink: "https://docs.google.com/document/d/1dGeu--h8FyLF7RcZSFJJYzQH3odu6xzy0sM4TQpfq9M/edit?tab=t.0"
-    },
-    {
-        category: "devlog",
-        title: "Devlog #3",
-        date: "Apr 2026",
-        techStack: ["unrealengine"],
-        description: "3rd Devlog",
-        image: "images/devlog3_img.png",
-        localVideo: "videos/devlog_3.mp4",
-        githubLink: "https://docs.google.com/document/d/1tB9fv60llXBinNflEPVrs6lQr_6NP_ll07jN34FduvU/edit?tab=t.0"
+        category: "app",
+        title: "Daily Emotion",
+        date: "current", //started May 22 2026
+        techStack: ["swift, xcode"],
+        description: "A simple iOS app to track your daily emotions and moods. It allows users to log their feelings, add notes, and view their emotional trends over time.",
+        image: "images/construction_sign.jpg",
+        githubLink: "https://github.com/Yohan678/DailyEmotion_iOS"
     }
 ];
 

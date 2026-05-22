@@ -55,7 +55,25 @@ nav {
     border-radius: 10px;
     transition: 0.3s;
 }
+
 .btn:hover { background: #8bbae4; }
+
+.hero-buttons {
+    display: inline-flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.22);
+}
 
 /* === Contact Section === */
 
